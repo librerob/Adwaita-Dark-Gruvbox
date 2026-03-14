@@ -76,8 +76,7 @@ Or download the archive and extract it to:
 Open **System Settings → Themes** and set:
 
 ```
-Controls
-Window Borders
+Applictions
 Desktop
 ```
 
@@ -85,6 +84,18 @@ to:
 
 ```
 Adwaita-Dark-Gruvbox
+```
+
+OR
+
+Activate Theme (Terminal)
+
+Set the theme using gsettings:
+
+```bash
+gsettings set org.cinnamon.desktop.interface gtk-theme 'Adwaita-Dark-Gruvbox'
+gsettings set org.cinnamon.desktop.wm.preferences theme 'Adwaita-Dark-Gruvbox'
+gsettings set org.cinnamon.theme name 'Adwaita-Dark-Gruvbox'
 ```
 
 To reload the Cinnamon shell without logging out:
