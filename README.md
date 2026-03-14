@@ -157,3 +157,13 @@ Original theme by the GNOME project.
 
 **Gruvbox**  
 Color scheme by https://github.com/morhetz/gruvbox
+
+---
+
+# License
+
+This project is licensed under the LGPL-2.1 license.
+
+You are free to use, modify, and redistribute this theme under the terms of the GNU Lesser General Public License version 2.1.
+
+See the LICENSE file in this repository for the full license text.
