@@ -157,11 +157,11 @@ row label.subtitle {
 }
 
 .success {
-  color: #6c782e;
+  color: #98971a;
 }
 
 .warning {
-  color: #b47109;
+  color: #d79921;
 }
 
 .error {
@@ -4161,8 +4161,8 @@ treeview.view > header > button:focus, row.activatable:focus {
 treeview.view > header > button:hover, .nautilus-window .nautilus-grid-view child.has-open-popup.activatable,
 .nautilus-window .nautilus-list-view child.has-open-popup.activatable, columnview.view > header > button.has-open-popup,
 treeview.view > header > button.has-open-popup, row.activatable:hover, row.activatable.has-open-popup {
-  color: #ebdbb2;
-  background-color: alpha(currentColor, 0.05);
+  color: #458588;
+  background-color: rgba(69, 133, 136, 0.12);
   box-shadow: none;
 }
 
@@ -4814,7 +4814,7 @@ window.dialog.message .dialog-action-area > button.suggested-action:not(:disable
 }
 
 window.dialog.message .dialog-action-area > button.destructive-action:not(:disabled) {
-  background-color: #a13737;
+  background-color: #cc241d;
   color: #ebdbb2;
 }
 
@@ -4850,7 +4850,7 @@ window.messagedialog .response-area button.suggested {
 }
 
 window.messagedialog .response-area button.destructive {
-  background-color: #a13737;
+  background-color: #cc241d;
   color: #ebdbb2;
   /* color: $destructive; */
 }
@@ -8366,7 +8366,7 @@ themeswitcher checkbutton.dark {
 /* widgets main borders color on backdrop windows */
 @define-color unfocused_borders rgba(251, 241, 199, 0.12);
 /* these are pretty self explicative */
-@define-color warning_color #b47109;
+@define-color warning_color #d79921;
 @define-color error_color #fb4934;
 @define-color success_color #6c782e;
 /* these colors are exported for the window manager and shouldn't be used in applications,
@@ -8500,9 +8500,9 @@ read if you used those and something break with a version upgrade you're on your
 @define-color success_bg_color #6c782e;
 @define-color success_fg_color #ebdbb2;
 @define-color success_color #6c782e;
-@define-color warning_bg_color #b47109;
+@define-color warning_bg_color #d79921;
 @define-color warning_fg_color #ebdbb2;
-@define-color warning_color #b47109;
+@define-color warning_color #d79921;
 @define-color error_bg_color #cc241d;
 @define-color error_fg_color #ebdbb2;
 @define-color error_color #fb4934;
