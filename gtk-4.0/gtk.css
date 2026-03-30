@@ -2655,14 +2655,16 @@ popover modelbutton {
   border-radius: 12px;
 }
 
-popover modelbutton:hover {
+popover modelbutton:hover,
+popover modelbutton:focus,
+popover modelbutton:selected {
   transition: none;
-  background-color: rgba(251, 241, 199, 0.04);
-  color: #458588;
+  background-color: #458588;
+  color: #fbf1c7;
 }
 
 popover modelbutton:hover accelerator {
-  color: #458588;
+  color: #fbf1c7;
 }
 
 popover modelbutton:hover accelerator:disabled {
